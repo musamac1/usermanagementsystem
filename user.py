@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from streamlit_lottie import st_lottie
+
 import requests
 import pywin32_bootstrap
 
