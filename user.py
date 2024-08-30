@@ -4,15 +4,7 @@ from streamlit_lottie import st_lottie
 import requests
 import pywin32_bootstrap
 
-def load_loturl(url):
-    r=requests.get(url)
-    if r.status_code!=200:
-        return None
-    return r.json()
-     
 
-lottie_Coding=load_loturl("https://lottie.host/f358959a-4832-4ebe-a18e-c067f4406905/Ffej6839IS.json")
-st_lottie(lottie_Coding,height=300,key="movie")
 def local_css(file_names):
     css = ""
     for file_name in file_names:
