@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 import requests
-import pywin32_bootstrap
+
 
 
 def local_css(file_names):
